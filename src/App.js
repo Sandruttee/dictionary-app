@@ -26,7 +26,7 @@ function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/Sandruttee/my-weather-application"
+            href="https://github.com/Sandruttee/dictionary-app"
             target="_blank"
             rel="noopener noreferrer"
             className="git-tag"
