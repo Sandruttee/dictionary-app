@@ -1,5 +1,5 @@
 .App {
-  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+  background: linear-gradient(to top, #a496ce 0%, #dad4ec 1%, #c29fd9 100%);
 }
 
 .container {
@@ -8,17 +8,19 @@
 .title {
   padding-top: 150px;
   padding-bottom: 150px;
-  font-size: 60px;
+  font-size: 200px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  letter-spacing: 15px;
+  font-family: "Dancing Script", cursive;
+
   text-align: center;
 }
 
 @media (max-width: 800px) {
   .title {
-    font-size: 30px;
+    font-size: 60px;
     letter-spacing: normal;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   footer {
     font-size: 10px;
@@ -33,11 +35,12 @@ footer {
   margin-top: 100px;
   padding-top: 150px;
   padding-bottom: 150px;
+  color: #5d42af;
 }
 
 .name-tag,
 .git-tag {
-  color: black;
+  color: #5d42af;
 }
 
 .name-tag:hover {
@@ -52,4 +55,9 @@ footer {
   font-style: italic;
   text-align: center;
   font-size: 11px;
+  color: #5d42af;
+}
+
+.Phonetic {
+  color: #5d42af;
 }
