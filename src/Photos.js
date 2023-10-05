@@ -15,7 +15,11 @@ export default function Photos(props) {
                   rel="noopener noreferrer"
                 >
                   {" "}
-                  <img src={photo.src.landscape} className="img-fluid" />{" "}
+                  <img
+                    src={photo.src.landscape}
+                    alt="dictionary pictures"
+                    className="img-fluid"
+                  />{" "}
                 </a>
               </div>
             );
