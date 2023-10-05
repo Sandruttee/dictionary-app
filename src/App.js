@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="title">DICTIONARY</div>
+        <h1 className="title">DICTIONARY</h1>
         <div className="citation">
           If a word in the dictionary were misspelled, how would we know?
           -Steven Wright

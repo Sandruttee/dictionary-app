@@ -6,12 +6,23 @@
   max-width: 80%;
 }
 .title {
-  text-align: center;
-  padding: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   font-size: 60px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 15px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+  footer {
+    font-size: 10px;
+  }
 }
 
 .App {
@@ -20,7 +31,8 @@
 
 footer {
   margin-top: 100px;
-  padding: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .name-tag,
