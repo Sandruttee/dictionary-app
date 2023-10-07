@@ -17,7 +17,9 @@ function App() {
         <footer className="text-center">
           This project was coded by{" "}
           <a
-            href="https://www.linkedin.com/in/sandra-pla%C4%8Denyt%C4%97-208403191/"
+            href="https://www.linkedin.com/in/sandra-placenyte
+
+"
             target="_blank"
             rel="noopener noreferrer"
             className="name-tag"
